@@ -1,0 +1,19 @@
+li {
+    list-style-type: none;
+}
+ul {
+    display: flex;
+    flex-direction: row;
+}
+a {
+    text-decoration: none;
+}
+.flex-container {
+    display: flex;
+}
+.nav-links {
+    display: flex;
+    justify-content: right;
+    flex-direction: row;
+}
+
