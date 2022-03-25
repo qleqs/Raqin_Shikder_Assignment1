@@ -1,7 +1,7 @@
-li {
+.nav-links li {
     list-style-type: none;
 }
-ul {
+.nav-links ul {
     display: flex;
     flex-direction: row;
 }
@@ -12,16 +12,21 @@ a {
     display: flex;
 }
 
-
-
 .nav-links {
     display: flex;
     justify-content: right;
     flex-direction: row;
 }
-.text {
-    justify-content:center ;
-    padding-left: 200px;
+.note_button {
+    height:75px;
+    width:150px;
+    margin-left: 300px;
+    margin-top: 200px;
+}
+.Menu_button {
+    position: absolute;
+    height: 50px;
+    width:75px;
 }
 
 footer{
