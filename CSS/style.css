@@ -1,4 +1,4 @@
-.nav-links li {
+li {
     list-style-type: none;
 }
 .nav-links ul {
@@ -10,6 +10,10 @@ a {
 }
 .flex-container {
     display: flex;
+}
+#menu{
+    position:absolute;
+    left: -200px;
 }
 
 .nav-links {
@@ -37,3 +41,14 @@ footer{
    
 
 }
+ .menu-bar{
+    width: 10%;
+    padding-top: 50px;
+     
+ }
+ .menu-bar .Menu_button-out{
+    position: absolute;
+    left: 8%;
+    top: 8%;
+ }
+ 
