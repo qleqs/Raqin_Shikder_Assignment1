@@ -19,36 +19,58 @@ a {
 .nav-links {
     display: flex;
     justify-content: right;
-    flex-direction: row;
 }
 .note_button {
-    height:75px;
+    margin-top: 10%;
+    height: 30px;
     width:150px;
-    margin-left: 300px;
-    margin-top: 200px;
 }
 .Menu_button {
+    border: 0px;
     position: absolute;
     height: 50px;
-    width:75px;
+    width: 50px;
+    left: -1%;
+    top: 3%;
 }
 
 footer{
+    display: flex;
     position:absolute;
     width:100%;
     bottom:0px;
-    padding-left: 600px;
+    justify-content: center;
    
 
 }
  .menu-bar{
-    width: 10%;
-    padding-top: 50px;
+    background-color: aqua;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 190px;
+    height: 100%;
+    padding: 20px 0
      
  }
  .menu-bar .Menu_button-out{
     position: absolute;
-    left: 8%;
-    top: 8%;
+    margin-left: 90%;
  }
- 
+ @media screen and (max-width: 600px){
+ .menu-bar ul{
+     display: flex;
+     flex-direction: row;
+
+}
+
+
+
+}
+.textbox{
+    display: flex;
+    justify-content: center;
+ }
+header{
+margin-left: 10%;
+}

@@ -8,19 +8,33 @@
     <link rel="stylesheet" href="CSS/style.css">
 </head>
 <body>
-
-        <nav class="menu-bar">
+    <header>
+        <nav class="nav-links">
             <ul>
-                <li>my notes</li>
-                <li><a href="#" class="menu-button">Link 2</a></li>
-                <li><a href="#" class="menu-button">Link 3</a></li>
+                <li><a href="#">About</a></li>&nbsp;
+                <li><a href="#">Docs</a></li>&nbsp;
             </ul>
-            
-                <button class="Menu_button-out"
-        type="button">
-            <<
-        </button>
-        <footer>
-        </nav>
+        <nav>
+    </header>
+    
+<div class="menu-bar">
+    <button class="Menu_button-out"type="button"><<</button>
+    <ul>
+        <li>my notes</li>
+        <li><a href="#" class="menu-button">Note1</a></li>
+        <li><a href="#" class="menu-button">Note2</a></li>
+    </ul>
+</div>
+<div class="textbox">
+    <button class="note_button"type="button">+ create a new note</button>
+    <div class="Text">
+        <Textarea id="note-writing" rows="20" cols="40"></Textarea>
+        <button class="save-button" type="button">save</button>
+        <button class="del-button" type="button">delete</button>
+    </div>
+</div>
+<footer>
+    created by Raqin Shikder
+</footer>
 </body>
 </html>
